@@ -150,25 +150,6 @@ def post_to_wordpress(title: str, content: str, topic: dict) -> str:
 
     try:
         result = subprocess.run(
-            [
-                WP_CLI,
-                "--allow-root",
-                f"--path={WP_PATH}",
-                "post",
-                "create",
-                f"--post_title={title}",
-                f"--post_content=$(cat {tmp_path})",
-                "--post_status=publish",
-                f"--post_author=1",
-                "--porcelain",
-            ],
-            capture_output=True,
-            text=True,
-            shell=False,
-        )
-
-        # shell=Trueで再試行（$()が使えるため）
-        result = subprocess.run(
             f'{WP_CLI} --allow-root --path={WP_PATH} post create '
             f'--post_title="{title}" '
             f'--post_content="$(cat {tmp_path})" '
