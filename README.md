@@ -58,9 +58,25 @@ uv run python post.py
 - 証券口座
 - グルメ（飲茶）
 
+## WordPress構成
+
+- URL: https://hk.fedlic.tokyo
+- ナビゲーション: ブログ / このサイトについて / よくある質問
+- アフィリエイト:
+  - Booking.com（ホテル予約）
+  - Amazonアソシエイト（`tag=fedlic-22`）— ガイドブック・旅行グッズ
+  - Wise・VPN・クレカ（topics.py内で管理）
+
+## WordPress管理メモ
+
+- デフォルト記事（Ciao mondo!）は削除済み
+- ナビゲーションは `wp_navigation` (ID:4) で管理
+- 不要ページ（Shop/Events/Patterns/Themes）は除去済み
+
 ## 技術スタック
 
 - Python 3.12 / uv
 - Gemini 2.5 Flash（記事生成）
 - WP-CLI（WordPress投稿）
 - HestiaCP（サーバー管理）
+- WordPress + Twenty Twenty-Five テーマ
