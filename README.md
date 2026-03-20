@@ -73,6 +73,10 @@ uv run python post.py
 - ナビゲーションは `wp_navigation` (ID:4) で管理
 - 不要ページ（Shop/Events/Patterns/Themes）は除去済み
 
+## ドキュメント
+
+- [MANUAL.md](./MANUAL.md) — 日本語・英語の操作マニュアル
+
 ## 技術スタック
 
 - Python 3.12 / uv
