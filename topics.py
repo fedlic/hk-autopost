@@ -61,6 +61,16 @@ TOPICS = [
         "title_hint": "香港の飲茶おすすめ店10選【地元民も通う名店】",
         "affiliate": "hotel",
     },
+    {
+        "keyword": "香港 SIM カード eSIM",
+        "title_hint": "香港旅行のeSIM完全ガイド【2026年最新】現地SIMより断然お得",
+        "affiliate": "voye_esim",
+    },
+    {
+        "keyword": "香港 海外eSIM おすすめ",
+        "title_hint": "海外eSIMならボイエグローバルが最強！香港・アジア旅行に最適",
+        "affiliate": "voye_esim",
+    },
 ]
 
 AFFILIATE_LINKS = {
@@ -98,5 +108,10 @@ AFFILIATE_LINKS = {
         "name": "Interactive Brokers",
         "url": "https://www.interactivebrokers.com/",
         "text": "香港で証券口座を開設する",
+    },
+    "voye_esim": {
+        "text": '<a href="https://px.a8.net/svt/ejp?a8mat=4AZL0E+1CTKDU+5TBA+5YJRM" rel="nofollow">各国最低2回線使えるコスパ最強eSIM【ボイエ】</a><img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4AZL0E+1CTKDU+5TBA+5YJRM" alt="">',
+        "url": "https://px.a8.net/svt/ejp?a8mat=4AZL0E+1CTKDU+5TBA+5YJRM",
+        "name": "ボイエグローバルeSIM",
     },
 }
